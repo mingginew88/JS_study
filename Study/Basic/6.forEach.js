@@ -17,7 +17,7 @@ function customForEach(callback) {
     console.log("end");
 }
 
-/* 클래스 내의 메서드를 볼수 있고, 정의 할때 prototype을 */
+/* 클래스 내의 메서드를 볼수 있고, 정의 할때 prototype을 사용 */
 /* customForEach();  소괄호;을 해줘야 실행이 된다 */
 Array.prototype.customForEach = customForEach;
 
@@ -28,7 +28,6 @@ Arr1.customForEach(function (elem, index) {
     console.log("elem : ", elem);
     console.log("index : ", index);
 });
-
 
 // console.log(Array);
 

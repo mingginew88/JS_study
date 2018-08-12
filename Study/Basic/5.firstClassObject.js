@@ -7,11 +7,3 @@ Arr1.forEach(function(element, index) {
 
 
 
-
-
-
-
-
-
-
-
